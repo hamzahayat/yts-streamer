@@ -2,7 +2,7 @@
 
 ## Usage
 
-Download dependecies
+Download dependencies
 ```
 npm install
 ```
