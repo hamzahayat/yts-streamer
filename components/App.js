@@ -112,7 +112,7 @@ class App extends Component {
             <InputLabel htmlFor='search-input' className={this.props.classes.inputLabel} >Search Movie</InputLabel>
             <Input id='search-input' className= {this.props.classes.input} value={this.state.value} onChange={this.handleChange} />
           </FormControl>
-          <Button raised className={this.props.classes.button} onClick={this.handleSearch}  color='accent'>Search</Button>
+          <Button variant="raised" className={this.props.classes.button} onClick={this.handleSearch} >Search</Button>
         </div>
         {this.state.data.current === this.state.data.old ? null: <MovieData data= {this.state.data.current}/>}
       </div>
